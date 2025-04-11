@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../img/back.png);
+  background-color:#2B2D38;
+  background-repeat: no-repeat;
+  background-position: 720px 120px;
+  background-size: 650px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+.menu h1 {
+  font-family: 'Merriweather', serif;
+  color: #DB2A6B;
+  font-size: 24px;
+  padding: 30px 100px;
+  
+
+}
+
+.menu span {
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+}
+
+.menu .dos {
+  color: #DB2A6B;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 35px;
+  padding: 30px 100px;
+  
+}
+nav ul li a {
+  text-decoration: none;
+  color: #95969B;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #DB2A6B;
+  text-underline-offset: 6px;
+}
+
+.hero h1 {
+  font-family:'Merriweather', serif ;
+  font-size: 40px;
+  color: #ffffff;
+  width: 400px;
+  height: 150px;
+  margin-left: 100px;
+  padding-top: 40px;
+}
+
+.hero p{
+  font-family: 'Poppins', sans-serif;
+  width: 430px;
+  height: 100px;
+  margin-left: 100px;
+  padding-top: 10px;
+  color: #95969B;
+}
+
+.hero .btn1 {
+
+  padding: 10px 40px ;
+  background-color: #DB2A6B;
+  border-radius: 10px;
+  border-bottom-left-radius:0 ;
+  margin-left: 105px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hero .btn2 {
+  padding: 10px 40px ;
+  border-radius: 10px;
+  border-bottom-left-radius:0 ;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+i {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.btn1,
+.btn2 {
+  font-family:'Poppins', sans-serif ;
+  font-weight: 300;
+  list-style: none;
+  font-size: 16px;
+}
+
+.btn1:hover,
+.btn2:hover {
+  background-color: #ffffff;
+  color:#DB2A6B;
+}
+
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; 
+  width: 180px;
+  margin-top: 80px;
+  margin-left: 100px;
+}  
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  margin-bottom: 10px; 
+  font-family:'Poppins', sans-serif ;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.item img {
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #454751;
+}
+
