@@ -14,19 +14,13 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.menu h1 {
-  font-family: 'Merriweather', serif;
-  color: #DB2A6B;
-  font-size: 24px;
+.menu img {
   padding: 30px 100px;
   
 
 }
 
-.menu span {
-  color: #ffffff;
-  font-family: 'Merriweather', serif;
-}
+
 
 .menu .dos {
   color: #DB2A6B;
